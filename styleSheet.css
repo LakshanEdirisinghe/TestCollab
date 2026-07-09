@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Google Sans", sans-serif;
 }
 
 .main-grid {
@@ -14,11 +15,28 @@
 .one{
     display: flex;
     justify-content: space-between;
+    font-size: 21px;
+    align-items: center;
+}
+.logo{
+    padding-left:3% ;
+    text-decoration: bold;
 }
 .nav-links{
-    display: grid;
-    grid-auto-flow: column;
+    display: inline-grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+    
+    
 }
+a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
 
 .two{
     background-color: aquamarine;
@@ -31,3 +49,4 @@
 .four{
     background-color: red;
 }
+
