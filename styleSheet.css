@@ -44,6 +44,14 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: aliceblue;
+
+    
 }
 
 .three{
