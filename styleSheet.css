@@ -40,7 +40,10 @@ a{
 
 
 .two{
-    background-color: aquamarine;
+    background-image: url(koji-futami-hOAG12UgdIk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .three{
