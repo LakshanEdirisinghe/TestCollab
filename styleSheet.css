@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-grid {
+
+    display: grid;
+
+}
+
+.one{
+    background-color: blue;
+}
+
+.two{
+    background-color: aquamarine;
+}
+
+.three{
+    background-color: yellow;
+}
+
+.four{
+    background-color: red;
+}
