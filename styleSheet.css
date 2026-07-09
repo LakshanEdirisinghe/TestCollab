@@ -6,11 +6,18 @@
 .main-grid {
 
     display: grid;
+    grid-template-rows: 9% 100%  ;
+    height: 100vh;
 
 }
 
 .one{
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: grid;
+    grid-auto-flow: column;
 }
 
 .two{
